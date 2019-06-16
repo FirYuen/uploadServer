@@ -1,0 +1,26 @@
+{
+  "name": "uploadserver",
+  "version": "1.0.0",
+  "description": "a log upload server for Dreame 1c project",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "multer": "^1.4.1",
+    "serve-index": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FirYuen/uploadServer.git"
+  },
+  "author": "ypf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FirYuen/uploadServer/issues"
+  },
+  "homepage": "https://github.com/FirYuen/uploadServer#readme"
+}
