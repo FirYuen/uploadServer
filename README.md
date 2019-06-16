@@ -1,7 +1,7 @@
 # uploadServer
 install nodejs https://nodejs.org/zh-cn/download/
 ```shell
-git clone https://github.com/FirYuen/uploadServer
+git clone https://github.com/FirYuen/uploadServer.git
 cd uploadServer
 npm install
 ```
@@ -17,5 +17,5 @@ npm install forever -g
 forever start -l forever.log -o out.log -e err.log index.js 
 ```
 if necessary
-change file node_modules\serve-index\index.js at line #192
- form `fileList.sort(fileSort);` to ` fileList.reverse(fileSort);`
+change file `node_modules\serve-index\index.js` at line #192
+form `fileList.sort(fileSort);` to ` fileList.reverse(fileSort);`
